@@ -1,3 +1,6 @@
+:root {
+  --purple: #675AFF;
+}
 html,
 body {
   padding: 0;
@@ -6,13 +9,15 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
   box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+  color: var(--purple);
+}
+p {
+  color: #000;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,6 +26,6 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: #FFF;
   }
 }
