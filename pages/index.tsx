@@ -31,7 +31,7 @@ const Home: NextPage = () => {
         <div className={styles['social-media']}>
           <p>Follow</p>
           <div className={styles.icons}>
-            <a href="https://www.behance.net/frederivelasco" target="_blank" rel="noreferrer">
+            <a href="https://www.behance.net/soyfdr" target="_blank" rel="noreferrer">
               <Image src={behance} alt="Behance" />
             </a>
             <a href="https://www.linkedin.com/in/frederick-velasco-1392b5180/" target="_blank" rel="noreferrer">
