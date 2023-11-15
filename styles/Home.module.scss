@@ -28,6 +28,10 @@
   font-size: 18px;
   font-weight: 700;
   border-radius: 5px;
+  &:hover {
+    background-color: var(--purple);
+    color: #FFF;
+  }
 }
 
 .social-media {
@@ -37,33 +41,28 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  
+  p {
+    font-size: 15px;
+    font-weight: 400;
+  }
 }
 
-.social-media p {
-  font-size: 15px;
-  font-weight: 400;
-}
 
 .social-media .icons{
   width: 50%;
   display: flex;
   justify-content: space-evenly;
+  img {
+    width: 32px;
+    height: 32px;
+    opacity: 50%;
+    &:hover {
+      opacity: 100%;
+    }
+  }
 }
 
-.social-media .icons img {
-  width: 32px;
-  height: 32px;
-  opacity: 50%;
-}
-
-.button:hover {
-  background-color: var(--purple);
-  color: #FFF;
-}
-
-.social-media .icons img:hover {
-  opacity: 100%;
-}
 
 @media (min-width: 800px) {
   .container {
