@@ -1,23 +1,17 @@
 import type { NextPage } from 'next';
-import Head from 'next/head';
 import Image from 'next/image';
-import styles from '../styles/Home.module.css';
+import styles from '@styles/Home.module.scss';
 
-import alert from '../public/assets/svg/alert.svg';
-import instagram from '../public/assets/svg/instagram.svg';
-import linkedin from '../public/assets/svg/linkedin.svg';
-import behance from '../public/assets/svg/behance.svg';
+import alert from '@public/assets/svg/alert.svg';
+import instagram from '@public/assets/svg/instagram.svg';
+import linkedin from '@public/assets/svg/linkedin.svg';
+import behance from '@public/assets/svg/behance.svg';
 
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Frederick Velasco</title>
-        <meta name="description" content="Hello, I'm Frederick Velasco, a UX/UI Designer." />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
-      <main className={styles.main}>
+     <main className={styles.main}>
         <div className={styles['alert-container']}>
           <Image src={alert} alt="Alert" />
         </div>
